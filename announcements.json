@@ -1,11 +1,6 @@
 [
     {
         "titulo": "04.18.25",
-        "mensaje": "update",
-        "fecha": 1744906912
-    },
-    {
-        "titulo": "04.18.25",
         "mensaje": "new loader, a few bugs fixed",
         "fecha": 1744906886
     },
