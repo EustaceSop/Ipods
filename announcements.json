@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "05.15.25",
+        "mensaje": "fixed for last game updated",
+        "fecha": 1747239706
+    },
+    {
         "titulo": "05.08.25",
         "mensaje": "fixed for last update, cfg may be broken, extended the lost time!",
         "fecha": 1746694137
