@@ -1,6 +1,11 @@
 [
     {
         "titulo": "05.15.25",
+        "mensaje": "fixed error windows pop up",
+        "fecha": 1747242040
+    },
+    {
+        "titulo": "05.15.25",
         "mensaje": "fixed for last game updated",
         "fecha": 1747239706
     },
