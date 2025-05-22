@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "05.22.25",
+        "mensaje": "Updated the tips, default settings, and removed the value limitations for some functions",
+        "fecha": 1747912091
+    },
+    {
         "titulo": "05.16.25",
         "mensaje": "fixed for last game updated",
         "fecha": 1747370221
