@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "06.26.25",
+        "mensaje": "loader major update",
+        "fecha": 1750947349
+    },
+    {
         "titulo": "06.12.25",
         "mensaje": "Added Bomb Defuse Feasibility Check，Added Bomb Defusing Timer，Added Temporarily Disable Aimbot / Trigger / ESP when being spectated，Improved visual details being squeezed",
         "fecha": 1749727239
