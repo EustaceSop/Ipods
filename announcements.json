@@ -1,6 +1,11 @@
 [
     {
         "titulo": "07.03.25",
+        "mensaje": "updated for last game update",
+        "fecha": 1751498237
+    },
+    {
+        "titulo": "07.03.25",
         "mensaje": "fixed some bug!",
         "fecha": 1751488090
     },
