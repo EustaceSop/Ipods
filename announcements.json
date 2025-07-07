@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "07.07.25",
+        "mensaje": "added wait for discord overlay",
+        "fecha": 1751880503
+    },
+    {
         "titulo": "07.03.25",
         "mensaje": "updated for last game update",
         "fecha": 1751498237
