@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "07.08.25",
+        "mensaje": "loader menu fully bypass any screen capture",
+        "fecha": 1751909235
+    },
+    {
         "titulo": "07.07.25",
         "mensaje": "added wait for discord overlay",
         "fecha": 1751880503
