@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "07.16.25",
+        "mensaje": "fixed for last game updated",
+        "fecha": 1752626540
+    },
+    {
         "titulo": "07.08.25",
         "mensaje": "loader menu fully bypass any screen capture",
         "fecha": 1751909235
