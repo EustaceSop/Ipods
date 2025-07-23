@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "07.24.25",
+        "mensaje": "fixed some error in loader when press run",
+        "fecha": 1753304668
+    },
+    {
         "titulo": "07.16.25",
         "mensaje": "fixed for last game updated",
         "fecha": 1752626540
