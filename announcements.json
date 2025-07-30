@@ -1,6 +1,11 @@
 [
     {
         "titulo": "07.30.25",
+        "mensaje": "fixed aimbot and triggerbot some issue",
+        "fecha": 1753872105
+    },
+    {
+        "titulo": "07.30.25",
         "mensaje": "updated for today's little update",
         "fecha": 1753864298
     },
