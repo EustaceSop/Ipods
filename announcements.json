@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "07.30.25",
+        "mensaje": "updated for today's little update",
+        "fecha": 1753864298
+    },
+    {
         "titulo": "07.29.25",
         "mensaje": "fix for last cs2 major update",
         "fecha": 1753787162
