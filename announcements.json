@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "07.31.25",
+        "mensaje": "fixed for last cs2 update",
+        "fecha": 1753939884
+    },
+    {
         "titulo": "07.30.25",
         "mensaje": "fixed aimbot and triggerbot some issue",
         "fecha": 1753872105
