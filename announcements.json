@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "08.31.25",
+        "mensaje": "fixed hitbox display",
+        "fecha": 1756643810
+    },
+    {
         "titulo": "08.30.25",
         "mensaje": "added fun fact",
         "fecha": 1756565398
