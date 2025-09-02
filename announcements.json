@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "09.02.25",
+        "mensaje": "added Teleport Exploit",
+        "fecha": 1756823556
+    },
+    {
         "titulo": "08.31.25",
         "mensaje": "fixed hitbox display",
         "fecha": 1756643810
