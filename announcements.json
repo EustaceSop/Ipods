@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "09.04.25",
+        "mensaje": "fix for cs2 upd, recode auto pistol",
+        "fecha": 1756958917
+    },
+    {
         "titulo": "09.03.25",
         "mensaje": "added jump scout",
         "fecha": 1756842068
