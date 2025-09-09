@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "09.09.25",
+        "mensaje": "fixed for last game update",
+        "fecha": 1757397881
+    },
+    {
         "titulo": "09.04.25",
         "mensaje": "fix for cs2 upd, recode auto pistol",
         "fecha": 1756958917
