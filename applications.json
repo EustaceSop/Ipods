@@ -2,8 +2,8 @@
     "applications": [
         {
             "name": "CS 2",
-            "lastUpdate": "2025-10-24",
-            "status": "Maintenance",
+            "lastUpdate": "2025-10-26",
+            "status": "Working",
             "version": "2.3",
             "programId": "197104610"
         }
