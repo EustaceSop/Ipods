@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "25.10.30",
+        "mensaje": "fix for last game update",
+        "fecha": 1761823755
+    },
+    {
         "titulo": "25.10.26",
         "mensaje": "should working on newest version",
         "fecha": 1761469699
