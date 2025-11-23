@@ -1,6 +1,11 @@
 [
     {
         "titulo": "25.11.23",
+        "mensaje": "added/improved spread check",
+        "fecha": 1763881321
+    },
+    {
+        "titulo": "25.11.23",
         "mensaje": "fixed triggeraimbot hitbox choose issue",
         "fecha": 1763881300
     },
