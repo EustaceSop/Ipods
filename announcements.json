@@ -1,5 +1,10 @@
 [
     {
+        "titulo": "25.12.10",
+        "mensaje": "fixed for last game update",
+        "fecha": 1765365427
+    },
+    {
         "titulo": "25.11.23",
         "mensaje": "added/improved spread check",
         "fecha": 1763881321
