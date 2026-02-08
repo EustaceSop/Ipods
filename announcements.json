@@ -1,6 +1,11 @@
 [
     {
         "titulo": "26.02.08",
+        "mensaje": "fixed rcs after update",
+        "fecha": 1770558831
+    },
+    {
+        "titulo": "26.02.08",
         "mensaje": "improved esp laggy issue",
         "fecha": 1770556140
     },
